@@ -1,0 +1,24 @@
+body {
+  background-color: #FCDDEC;
+  font-size: 2vw;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.5vw;
+  padding: 7px 7px 7px 7px;
+  color: black;
+  border: solid 1px #AB3873;
+  border-radius: 20px;
+}
+
+  h1{
+    color: #A5A6F6 !important;
+
+
+  }
+  title {
+    color: #5D5FEF;
+    border: solid 1px #AB3873;
+    border-radius: 20px;
+  }
