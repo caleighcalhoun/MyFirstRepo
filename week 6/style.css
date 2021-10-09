@@ -16,31 +16,63 @@ h1, h2{
   overflow: hidden;
   margin: 0px;
   padding: 0px;
-  bottom: 300px;
+
 }
 
 #hero img{
   width:100vw;
   overflow: hidden;
   position: relative;
+  top: 10vh;
+
 }
 
 #hero2{
   z-index: 1;
   position: relative;
-  bottom: 300px;
 
 }
 
 body {
   padding: 0px;
-
 }
 
 #hero, h1{
   z-index: 1;
   position: relative;
   font-size: 7vw;
-  top: 30vh;
 
+}
+
+h1 {
+  top: 45vh;
+  color: white;
+}
+
+  button{
+    background-color: #ebbd34;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+
+
+  }
+  button:active{
+    background-color: #a85032;
+  }
+  button:hover{
+    border: solid black 3px;
+  }
+  a:link{
+    color:blue;
+  }
+a:active{
+  color:red;
+}
+a:visited{
+  color:lightgrey;
+}
+a:hover{
+  font-size:200%;
+  color: red;
 }
