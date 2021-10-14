@@ -19,7 +19,7 @@
     document.getElementById("newquote").addEventListener("click", buttonClicked);
     function buttonClicked(){
       document.getElementById("qtext").innerHTML = quotes[quoteCount];
-      if (quoteCount>=7){
+      if (quoteCount>=6){
         quoteCount = 0;
       }else{
         quoteCount++;
