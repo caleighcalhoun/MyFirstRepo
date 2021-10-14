@@ -3,11 +3,12 @@
 <head>
 <title>Quote Machine</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
   <section id="quote">
-    <h2 id="qtext">Welcome to the quote machine, click the button to generate a quote!"</h2>
+    <h2 id="qtext">Welcome to the quote machine, click the button to generate a quote!</h2>
     <button id="newquote">New Quote</button>
   </section>
 
@@ -18,7 +19,6 @@
     document.getElementById("newquote").addEventListener("click", buttonClicked);
     function buttonClicked(){
       document.getElementById("qtext").innerHTML = quotes[quoteCount];
-
       if (quoteCount>=7){quoteCount = 0;
       }else{
         quoteCount++;

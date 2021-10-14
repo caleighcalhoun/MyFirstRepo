@@ -1,12 +1,22 @@
 section{
-  background-color: #5d8fc2;
+  background-color: #eb4034;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
-  border-radius: 8px;
+  border-radius: 10px;
+  font-family: Oswald;
+  border: 2px solid white;
 }
 
 button{
   border-radius: 8px;
   padding: 1vh 5vw;
-  
+  border: 1px solid white;
+  font-family: Oswald;
+  color: white;
+  background-color: black;
+
+
+}
+body{
+  background-color: #e3ab44
 }
