@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <section id="quote">
+    <h2 id="qtext">Welcome to the quote machine, click the button to generate a quote!"</h2>
+    <button id="newquote">New Quote</button>
+  </section>
+
+
+  <script>
+    const quotes = ["When you have a dream, don't let it go.","Practice self love today.","Let it be.","Treat people with kindess.", "No present like the time.","Trust your gut.","Authenticity  will set you free."]
+    let quoteCount = 0;
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+    function buttonClicked(){
+      document.getElementById("qtext").innerHTML = quotes[quoteCount];
+
+      if (quoteCount>=7){quoteCount = 0;
+      }else{
+        quoteCount++;
+
+      }
+      console.log(quoteCount)
+    }
+    </script>
+
+    </body>
