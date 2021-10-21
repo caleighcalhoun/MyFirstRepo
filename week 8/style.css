@@ -1,0 +1,39 @@
+section{
+  background-color: #9d7dad;
+  margin: 10vh 10vw;
+  padding: 10vh 10vw;
+  border-radius: 10px;
+  font-family: Oswald;
+  border: 2px solid white;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 5vw;
+  border: 1px solid white;
+  font-family: Oswald;
+  color: white;
+  background-color: black;
+
+
+}
+body{
+  background-color: #B6d4bd;
+
+}
+#sc {
+  text-align:center;
+}
+#select{
+  text-align: center;
+
+}
+h2{
+  font-family: Oswald;
+  color: black;
+  margin: center;
+}
+title{
+  font-family: Oswald;
+  color: black;
+}
