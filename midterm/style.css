@@ -1,0 +1,131 @@
+section{
+  background-color: #c7aa73;
+  margin: 10vh 10vw;
+  padding: 10vh 10vw;
+  border-radius: 10px;
+  font-family: "Oswald";
+  border: 2px solid white;
+}
+button{
+  border-radius: 8px;
+  padding: 1vh 5vw;
+  border: 1px solid white;
+  font-family: Oswald;
+  color: white;
+  background-color: black;
+}
+body{
+  background-color: #B6d4bd;
+
+}
+#sc {
+  text-align:center;
+}
+#select{
+  text-align: center;
+
+}
+h2{
+  font-family: Oswald;
+  color: black;
+  margin: center;
+}
+title{
+  font-family: Oswald;
+  color: black;
+}
+
+#sun{
+  background-color: #FF8C8C;
+  font-size:14px;
+}
+#sun:hover{
+  background-color: #D95A5A;
+  font-size:14px;
+}
+#sun:clicked{
+  background-color: #C23E3E;
+  font-size:14px;
+}
+
+#mon{
+  background-color:#faaa78;
+  font-size:14px;
+}
+#mon:hover{
+    background-color:#fa9150;
+    font-size:14px;
+}
+#mon:clicked{
+    background-color:#de6f2a;
+    font-size:14px;
+}
+
+#tues{
+  background-color:#bfbe71;
+  font-size:14px;
+
+}
+#tues:hover{
+  background-color: #bab836;
+  font-size:14px;
+}
+#tues:clicked{
+  background-color:#a19f13;
+  font-size:14px;
+}
+#wed{
+  background-color:#65b873;
+  font-size:14px;
+}
+#wed:hover{
+  background-color:#479e56;
+  font-size:14px;
+}
+#wed:clicked{
+  background-color:#2d853c;
+  font-size:14px;
+}
+#thurs{
+  background-color:#58afd1;
+  font-size:14px;
+}
+#thurs:hover{
+  background-color:#3c8fb0;
+  font-size:14px;
+}
+#thurs:clicked{
+  background-color:#1d7496;
+  font-size:14px;
+}
+#fri{
+  background-color:#5f88e8;
+  font-size:14px;
+}
+#fri:hover{
+  background-color:#446ecf;
+  font-size:14px;
+}
+#fri:clicked{
+  background-color:#2b56ba;
+  font-size:14px;
+}
+#sat{
+  background-color:#ac81e3;
+  font-size:14px;
+}
+#sat:hover{
+  background-color:#925fd4;
+  font-size:14px;
+}
+#sat:clicked{
+  background-color:#7b3ec9;
+  font-size:14px;
+}
+
+h3{
+  font-family: "Oswald";
+}
+#select{
+  font-size: 12px;
+}
