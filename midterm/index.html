@@ -9,16 +9,21 @@
 <body>
 
   <h2 id="sc">Self Care Daily!</h2>
-  <div id="weekday" style="text-align: center">
+  <div id="weekday">
     <h2 id="select">select today</h2>
-    <a href="indexSN.html"><button id="sun">Sunday</button></a>
-    <a href="indexM.html"><button id="mon">Monday</button></a>
-    <a href="indexT.html"><button id="tues">Tuesday</button></a>
-    <a href="indexW.html"><button id="wed">Wednesday</button></a>
-    <a href="indexTH.html"><button id="thurs">Thursday</button></a>
-    <a href="indexF.html"><button id="fri">Friday</button></a>
-    <a href="indexST.html"><button id="sat">Saturday</button></a>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+
+    <form>
+      <button id="sun" formaction="indexSN.html">Sunday</button>
+      <button id="mon" formaction="indexM.html">Monday</button>
+      <button id="tues" formaction="indexT.html">Tuesday</button>
+      <button id="wed" formaction="indexW.html">Wednesday</button>
+      <button id="thurs" formaction="indexTH.html">Thursday</button>
+      <button id="fri" formaction="indexF.html">Friday</button>
+      <button id="sat" formaction="indexST.html">Saturday</button>
+    </form>
+
+    <h3>Self-care may be defined by the term itself – caring for yourself. Self-care includes anything you do to keep yourself healthy – physically, mentally and spiritually. Although prioritizing self-care may sound like common sense, especially if you’re considering longevity, it’s often the first thing to go when we find ourselves in challenging situations, whether because of bad health, a financial crisis, job loss, divorce or, in our current situation, the COVID-19 pandemic. This is why it is important to keep it top of mind and not an after-thought, especially when we find ourselves in challenging times.</h3>
+
   </div>
 
   <section id="more">
@@ -26,4 +31,18 @@
     <button id="find">Find Out</button>
 
 
-  </body>
+<script>
+  const quotes = ["It fuels your self worth", "You learn more about yourself", "It allows you to be more present", "You learn what you need and define your boundaries","It's good to check in with yourself","It will boost your mood","It helps to add more balance to your life","It increases your self-awareness","It helps you become less reactive"]
+  document.getElementById("find").addEventListener("click", buttonClicked);let quoteCount = 0;
+  function buttonClicked(){
+    document.getElementById("y").innerHTML = quotes[quoteCount];
+    if (quoteCount>=9){
+      quoteCount = 0;
+    }else{
+      quoteCount++;
+    }
+    console.log(quoteCount)
+  }
+  </script>
+
+</body>
