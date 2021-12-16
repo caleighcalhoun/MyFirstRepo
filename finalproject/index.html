@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Big Fat Pepper Photography">
+    <meta property="og:image" content="logos.png">
+    <meta name="twitter:card" content="logos.png">
+    <meta property="og:site_name" content="Big Fat Pepper Photography">
+    <meta name="twitter:image:alt" content="Logo">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <title>Big Fat Pepper Photography</title>
+    <link rel="stylesheet" href="index.css">   
+    
+
+
+  
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><img src="logos.png"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> 
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="work.html" class="navbar__links" id="mission-page">Work</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Contact.html" class="navbar__links" id="Contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+        <div class="hero__container">
+          
+          <h1 class="hero__heading"></h1>
+            <p class="hero__description"></p>
+    
+        
+        </div>
+    <div class="main" id="mission">
+      <div class="main__container">
+              <div class="main__img--card">
+                  <img  src="self.JPG"></div>
+                  <div class="main__content">
+                    <h1></h1>
+                    <h2>My name is Caleigh Calhoun, and I started Big Fat Pepper Photography nine years ago when a friend and I came across an unusually-sized pepper during a photoshoot. Ever since, the name stuck. I have been taking photos for as long as I could hold a camera, and I specialize in capturing raw reactions, intimate moments, and animal behavior.</h2>
+                    <h2>As a queer artist, I really like to utilize “the excess” of life; the strange, hidden, and the obscured. I often find myself resonating with and being drawn to remote places and small corners of nature that catch my eye. I’ve been practicing freelance for photography for about six years now and will travel anywhere to meet your vision, even if it means we have to go off grid.</h2>
+              
+                  
+                  
+                   </div>
+             </div>
+      </div>
+  </div>
+               
+   
+    </div>
+    <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+             
+           
+          </div>
+        </div>
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><img src="logos.png"></a>
+            </div>
+            <p class="website__rights">© Big Fat Pepper Photography </p>
+            <br>
+            <br>
+            <p class="website__rights">Website by Me </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <script>
+          const menu = document.querySelector('#mobile-menu')
+      const menuLinks = document.querySelector('.navbar__menu')
+      
+      
+      const mobileMenu = () => {
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+  
+      }
+      menu.addEventListener('click', mobileMenu);
+      var canvasDots = function() {
+      var canvas = document.querySelector("canvas"),
+      ctx = canvas.getContext("2d"),
+      colorDot = "#FFFFFF",
+      color = "#FFFFFF";
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      canvas.style.display = "block";
+      ctx.fillStyle = colorDot;
+      ctx.lineWidth = 0.1;
+      ctx.strokeStyle = color;
+      }
+      </script>
+    }
+  }
+</body>
+
+</html>

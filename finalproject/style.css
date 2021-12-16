@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:black;
+  text-color: white;
+}
+
+#options{
+  width: 860px;
+  margin: 0 auto;
+}
+#options{
+  list-style: none;
+  margin-top: 2%;
+}
+#options{
+  background:#ad8350;
+  width: 170px;
+  border: 1px solid #2a1a1f;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+#options:hover{
+  background:#afa060;
+}
+
+#options ul ul{
+  display: none;
+}
+#options ul li:hover > ul{
+  display: block;
+
+}
+
+h2{
+  text-align: center;
+
+}

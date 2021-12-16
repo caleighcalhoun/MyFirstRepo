@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Big Fat Pepper Photography">
+    <meta property="og:image" content="logos.png">
+    <meta name="twitter:card" content="logos.png">
+    <meta property="og:site_name" content="Big Fat Pepper Photography">
+    <meta name="twitter:image:alt" content="Logo">
+    <title>Big Fat Pepper Photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">   
+    
+
+
+  
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><img src="logos.png"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> 
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="work.html" class="navbar__links" id="mission-page">Work</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="Contact.html" class="navbar__links" id="Contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="#" name="contact_form">
+            <label for="first_name">First Name</label>
+            <input name="first_name" type="text" required placeholder="John" />
+            <br>
+            <label for="last_name">Last Name</label>
+            <input name="last_name" type="text" required placeholder="Doe"/>
+            <br>
+            <label for="email">Email</label>
+            <input name="email" type="email" required placeholder="you@domain.com"/>
+            <br>
+            <label for="message">Message</label><br>
+            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+            <div class="center">
+                <input type="submit" value="Submit">
+            </div>
+        </form>	
+    </div>
+
+
+
+
+    <script>
+               const menu = document.querySelector('#mobile-menu')
+      const menuLinks = document.querySelector('.navbar__menu')
+      
+      
+      const mobileMenu = () => {
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+  
+      }
+      menu.addEventListener('click', mobileMenu);
+    </script>
+
+
